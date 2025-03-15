@@ -13,3 +13,7 @@ Features:
 - Modes for Mac vs Linux/Win support -> different order of modifiers and different action shortcuts on the "UPPER" layer (the red one in the image). Designed to simplify transtions when switching between operating systems often.
 - The OLED on master half shows selected mode and caps lock state and is rotated.
 - Left encoder controls volume up/down/mute. Right encoder PGUP/PGDOWN.
+
+### Custom
+
+Command for compile: qmk compile -kb sofle -km via -e CONVERT_TO=promicro_rp2040
