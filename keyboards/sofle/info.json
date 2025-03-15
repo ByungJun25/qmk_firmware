@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "Sofle",
+    "keyboard_name": "SofleV1",
     "features": {
         "bootmagic": true,
         "extrakey": true,
@@ -12,7 +12,8 @@
         "lto": true
     },
     "usb": {
-        "vid": "0xFC32"
+        "vid": "0xFC32",
+        "pid": "0x0287"
     },
     "diode_direction": "COL2ROW",
     "qmk": {
